@@ -22,15 +22,17 @@ class ColorPoint(Point):
         :return: string representation of the point
         """
         return f"{self.color}: P<{self.x},{self.y}>"
-p1 = ColorPoint(1, 2, 'red')
-p2 = ColorPoint(3, 4, 'green')
-p3 = ColorPoint(5, 6, 'blue')
-p4 = ColorPoint(-2, -3, 'yellow')
-color_points = [p1, p2, p3, p4]
-print(p1.color)
-print(p1)
-print(color_points)
-color_points.sort()
-print(color_points)
+
+if __name__ == '__main__': #guard against import runs
+    p1 = ColorPoint(1, 2, 'red')
+    p2 = ColorPoint(3, 4, 'green')
+    p3 = ColorPoint(5, 6, 'blue')
+    p4 = ColorPoint(-2, -3, 'yellow')
+    color_points = [p1, p2, p3, p4]
+    print(p1.color)
+    print(p1)
+    print(color_points)
+    color_points.sort()
+    print(color_points)
 #p5 = ColorPoint("bob", "james", 'red')
 #print(p5)
