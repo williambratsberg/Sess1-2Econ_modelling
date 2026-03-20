@@ -58,3 +58,5 @@ AdvancePoint.add_color("coral")
 p3 = AdvancePoint(1,2,"coral")
 print(p3)
 print(AdvancePoint.distance_2_points(p1, p3))
+
+#...

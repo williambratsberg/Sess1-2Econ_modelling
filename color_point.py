@@ -36,3 +36,4 @@ if __name__ == '__main__': #guard against import runs
     print(color_points)
 #p5 = ColorPoint("bob", "james", 'red')
 #print(p5)
+#...
